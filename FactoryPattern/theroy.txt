@@ -1,0 +1,29 @@
+design Pizza shop
+
+start by seeing objects
+Object
+<<interface>>
+Pizza (cheese, magarita, onion)
+getType()
+getPrize()
+prepare()
+bake()
+cut()
+box()
+
+
+Store (diff region)
+
+orderPizza(type)<- should takecare of order
+
+
+
+
+
+
+
+
+
+
+
+
