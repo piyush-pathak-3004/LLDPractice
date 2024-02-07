@@ -1,0 +1,18 @@
+Parking Lot
+
+Objects:-
+
+1) ParkingSpace {premium, Normal}
+2) Vehical { 2Wheeler, 4 Wheeler }
+3) ParkingSpaceManager
+4) EntryGate (1) but should be extendible (if more then take care of concurency)
+5) ExitGate (1) but should be extendible 
+6) ticket
+7) payment
+
+
+rough flow
+
+
+car comes at EntryGate -> check availability of Space for car -> yes -> give ticket -> car gets Parked 
+-> when leaving, show ticket at ExitGate -> pay Bill -> leave
