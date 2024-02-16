@@ -4,10 +4,10 @@ public class ParkingSpotFactory {
 
     public ParkingSpot getParkingSpot(String type) {
         ParkingSpot parkingSpot = null;
-        if(type.equals("Premium")) {
-            parkingSpot = new PreminumParkingSpot();
-        } else if(type.equals("Premium")) {
-            parkingSpot = new NormalParkingSpot();
+        if(type.equals("two")) {
+            parkingSpot = new TwoWheelerParkingSpot();
+        } else if(type.equals("four")) {
+            parkingSpot = new FourWheelerParkingSpot();
         }
 
         return parkingSpot;

@@ -2,12 +2,11 @@ package LLD.ParkingLot.ParkingSpots;
 
 import LLD.ParkingLot.Vehicals.Vehical;
 
-public class PreminumParkingSpot implements ParkingSpot {
+public class TwoWheelerParkingSpot implements ParkingSpot {
 
     String type;
     String spotId;
     Vehical vehical;
-
     public void setType(String type) {
         this.type = type;
     }
@@ -21,7 +20,7 @@ public class PreminumParkingSpot implements ParkingSpot {
     public String getSpotId() {
         return spotId;
     }
-
+    
     @Override
     public boolean isAvailable() {
         return vehical == null;
@@ -41,7 +40,7 @@ public class PreminumParkingSpot implements ParkingSpot {
 
     @Override
     public int getCost() {
-        return 200;
+        return 100;
     }
     
 }

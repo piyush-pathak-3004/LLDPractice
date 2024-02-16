@@ -2,9 +2,9 @@ Parking Lot
 
 Objects:-
 
-1) ParkingSpace {premium, Normal}
-2) Vehical { 2Wheeler, 4 Wheeler }
-3) ParkingSpaceManager
+1) ParkingSpace {premium, Normal} done
+2) Vehical { 2Wheeler, 4 Wheeler } done
+3) ParkingSpaceManager 
 4) EntryGate (1) but should be extendible (if more then take care of concurency)
 5) ExitGate (1) but should be extendible 
 6) ticket
