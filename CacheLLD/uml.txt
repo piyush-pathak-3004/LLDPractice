@@ -1,0 +1,40 @@
+cache is temp storage for fast retrival
+
+fixed size
+
+cache should store some value
+
+when size is full can't store next value, then
+cache should evict some value
+and store the new value
+
+
+
+storage=>
+
+
+
+DLL 
+MAP
+
+head - n1 - n2 - n3 - tail
+
+lastNode
+FirstNode
+put n4
+
+head - n1  n2  n3 - n4 - n2
+
+get n2
+
+map<key, addr(node(key))>
+
+
+head - n1 - n3 - n4 - n2 - tail
+
+
+size  = 4
+put n5
+
+
+
